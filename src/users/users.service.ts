@@ -13,7 +13,7 @@ export class UsersService {
   }
 
   findUser(id: string): Observable<User> {
-    this.log.debug(`Getting hello for id: ${id}`);
+    this.log.debug(`Getting user for id: ${id}`);
     this.validateId(id);
     return this.usersRepository
       .findOne(new ObjectId(id))

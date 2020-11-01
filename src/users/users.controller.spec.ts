@@ -9,7 +9,6 @@ import { User } from './dto/user.dto';
 
 describe('UsersController', () => {
   let controller: UsersController;
-  const name = 'John';
   const userDto: User = {
     id: new ObjectId().toHexString(),
     firstName: 'firstName',

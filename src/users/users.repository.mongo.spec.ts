@@ -37,7 +37,7 @@ describe('UsersRepository', () => {
     })
       .overrideProvider('MONGODB_CONNECTION')
       .useFactory({
-        factory: async (): Promise<object> => dbMock,
+        factory: async () => dbMock,
       })
       .compile();
 

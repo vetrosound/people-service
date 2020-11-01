@@ -60,7 +60,7 @@ describe('AppController (e2e)', () => {
       .send(user);
     expect(result.status).toBe(201);
     expect(result.body).toBeDefined();
-    let created: User = result.body;
+    const created: User = result.body;
     expect(created.id).toBeTruthy();
     expect(created.firstName).toBe(user.firstName);
     expect(created.lastName).toBe(user.lastName);
