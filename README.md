@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/vetrosound/people-service.svg?branch=main)](https://travis-ci.com/vetrosound/people-service)
+
 ## Installation
 
 ```bash
