@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/vetrosound/people-service.svg?branch=main)](https://travis-ci.com/vetrosound/people-service)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vetrosound-people-service&metric=alert_status)](https://sonarcloud.io/dashboard?id=vetrosound-people-service)
+
 ## Installation
 
 ```bash
